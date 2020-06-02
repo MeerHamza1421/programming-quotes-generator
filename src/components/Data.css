@@ -1,0 +1,37 @@
+.heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+}
+#click{
+    color: white;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(144, 144, 233);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 10pt;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 8px 10px  rgb(121, 110, 110);
+    text-shadow: 2px 2px rgb(182, 179, 179);
+}
+.btn{
+    width: 7%;
+    background-color: rgb(56, 45, 45);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: rgb(40, 40, 240);
+    cursor: pointer;
+}
+@media (max-width:1026px)
+{
+    .btn{
+        width: 20%;
+    }
+}
